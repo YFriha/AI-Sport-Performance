@@ -1,0 +1,32 @@
+.terrain {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 575px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background-image: url("../assets/terrain.png");
+  background-size: cover;
+
+  }
+  
+  .player {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 3px solid green;    
+  }
+  .ball {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,27 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin: 0 0 8px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    margin: 0;
+  }
+  

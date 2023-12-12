@@ -1,0 +1,13 @@
+<!-- composant.component.html -->
+<h1>l'etudiant : {{ nom_etudiant }}</h1>
+<h2>Projet : {{ projet }}</h2>
+<h2>Societe : {{ societe }}</h2>
+<h2>Note : {{ note }}</h2>
+
+<!-- Displaying the image -->
+<img [src]="cheminVersImageDynamique" width="150" height="150" alt="Me">
+
+<p>{{ commentaire }}</p>
+<button (click)="maMethode()">Cliquez-moi</button>
+<button (click)="toggleJaime()" [disabled]="jAime">J'aime</button>
+<button (click)="toggleJeNaimePas()" [disabled]="jeNaimePas">Je n'aime pas</button>
